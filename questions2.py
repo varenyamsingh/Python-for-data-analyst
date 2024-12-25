@@ -22,7 +22,7 @@ else:
 
 
 # Palindrome Number
-num = int(input("Enter a number: "))
+'''num = int(input("Enter a number: "))
 temp = num
 rev = 0
 while num > 0:
@@ -32,5 +32,24 @@ while num > 0:
 if rev == temp:
     print("Palindrome Number")
 else:
-    print("Not a Palindrome Number")
+    print("Not a Palindrome Number")'''
+    
+
+# sort string
+a = "hello world"
+print(sorted(a))
+
+# Reverse a string
+print(a[::-1])
+
+#Check if string is a digit or not
+print(a.isdigit())
+
+# Check string is palindrome or not
+rev = a[::-1]
+if a == rev:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
     
