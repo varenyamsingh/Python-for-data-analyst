@@ -68,6 +68,9 @@ print(a.title()) # makes first word in capital
 print(a.find("in")) # find any word in sentence
 print(a.center(5, "*"))
 
+# String slicing
+print(a[0:5]) # prints from 0 to 5 index
+
 
 # Pattern Problem
 '''for i in range(1, 6):
