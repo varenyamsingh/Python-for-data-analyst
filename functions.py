@@ -11,10 +11,17 @@ print(add(12, 56)) # giving values for adding'''
 
 
 # Factorial of any number
-def fact(n):
+'''def fact(n):
     if n == 1:
         return 1
     else:
         return(n*fact(n-1))
     
-print(fact(5)) # Calling function 
+print(fact(5)) # Calling function '''
+
+
+# Lambda Function
+x = lambda a, b, c: (a+b)*c
+print(x(3,7,2)) # this will perform the above function considering a, b, c
+
+
