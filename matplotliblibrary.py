@@ -1,7 +1,7 @@
 #Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
 
 import matplotlib.pyplot as plt
-
+# this was bar plot example
 y = [65, 78, 87, 98, 56]
 x = ["Part1", "Part2", "Part3", "Part4", "Part5"]
 color = ["red", "green", "blue", "purple", "grey"]
